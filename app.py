@@ -2,18 +2,18 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-rfc_1 = joblib.load('rfc.joblib')
-svm_1 = joblib.load('svm_pipeline.joblib')
-etc_1 = joblib.load('etc_1.joblib')
-adb_1 = joblib.load('abc_1.joblib')
-lr_1 = joblib.load('lr_1.joblib')
-sgd_1 = joblib.load('sgd_1.joblib')
-knn_1 = joblib.load('knn_1.joblib')
-rfc_2 = joblib.load('rfc_2.joblib')
-svm_2 = joblib.load('svm_2.joblib')
-xgb_2 = joblib.load('xgb.joblib')
-ETC_2 = joblib.load('ETC_2.joblib')
-abc_2 = joblib.load('abc_2.joblib')
+rfc_1 = joblib.load('models/rfc.joblib')
+svm_1 = joblib.load('models/svm_pipeline.joblib')
+etc_1 = joblib.load('models/etc_1.joblib')
+adb_1 = joblib.load('models/abc_1.joblib')
+lr_1 = joblib.load('models/lr_1.joblib')
+sgd_1 = joblib.load('models/sgd_1.joblib')
+knn_1 = joblib.load('models/knn_1.joblib')
+rfc_2 = joblib.load('models/rfc_2.joblib')
+svm_2 = joblib.load('models/svm_2.joblib')
+xgb_2 = joblib.load('models/xgb.joblib')
+ETC_2 = joblib.load('models/ETC_2.joblib')
+abc_2 = joblib.load('models/abc_2.joblib')
 
 st.set_page_config(page_title = "LoanCompass🔍",
                    page_icon = "🧭")
