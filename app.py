@@ -29,7 +29,7 @@ experience = st.slider("Enter Experience", 0, 43)
 income = st.slider("Enter Income", 64000, 1792000)
 Mortgage = st.slider('Enter Mortgage', 0, 5080000)
 Fixed_deposit = st.select_slider("Do you have a Fixed Deposit", ['yes', 'no'])
-demat = st.select_slider('Do you have a demat account', ["yes", "no"])
+demat = st.select_slider('Do you have a Demat account', ["yes", "no"])
 net_banking = st.select_slider('Do you use net_banking', ["yes", "no"])
 
 
